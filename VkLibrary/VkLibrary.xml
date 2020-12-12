@@ -1,0 +1,2900 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VkLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:VkLibrary.Enums.AttachmentType">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Photo">
+            <summary>
+            Фото
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Video">
+            <summary>
+            Видеозапись
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Audio">
+            <summary>
+            Аудиозпись
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Document">
+            <summary>
+            Документ
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Link">
+            <summary>
+            Ссылка
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Note">
+            <summary>
+            Заметка
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Poll">
+            <summary>
+            Голосование
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.AttachmentType.Album">
+            <summary>
+            Альбом
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.DocType">
+            <summary>
+            Тип документа.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.TextDocument">
+            <summary>
+            Текстовый документ
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Archive">
+            <summary>
+            Архив
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Gif">
+            <summary>
+            Подарок
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Image">
+            <summary>
+            Изображение
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Audio">
+            <summary>
+            Аудиозапись
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Video">
+            <summary>
+            Видеозапись
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.EBook">
+            <summary>
+            Электронная книга
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.DocType.Unknown">
+            <summary>
+            Неизвестно
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.FriendStatus">
+            <summary>
+            Статус дружбы с пользователеми.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.FriendStatus.NotFriend">
+            <summary>
+            Не является другом
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.FriendStatus.RequestSent">
+            <summary>
+            Отправлена заявка/подписка пользователю.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.FriendStatus.IncomingRequest">
+            <summary>
+            Имеется входящая заявка/подписка от пользователя.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.FriendStatus.Friend">
+            <summary>
+            Является другом.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.Genre">
+            <summary>
+            Жанры аудиозаписей.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Rock">
+            <summary>
+            Rock
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Pop">
+            <summary>
+            Pop
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.RapAndHipHop">
+            <summary>
+            Rap и Hip-Hop
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.EasyListening">
+            <summary>
+            Easy Listening
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.DanceAndHouse">
+            <summary>
+            House и Dance
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Instrumental">
+            <summary>
+            Instrumental
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Metal">
+            <summary>
+            Metal
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Dubstep">
+            <summary>
+            Dubstep
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.DrumAndBass">
+            <summary>
+            Drum и Bass
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Trance">
+            <summary>
+            Trance
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Chanson">
+            <summary>
+            Chanson
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Ethnic">
+            <summary>
+            Ethnic
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.AcousticAndVocal">
+            <summary>
+            Acoustic и Vocal
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Reggae">
+            <summary>
+            Reggae
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Classical">
+            <summary>
+            Classical
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.IndiePop">
+            <summary>
+            Indie Pop
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Other">
+            <summary>
+            Другое
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Speech">
+            <summary>
+            Speech
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.Alternative">
+            <summary>
+            Alternative
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.ElectropopAndDisco">
+            <summary>
+            Electropop и Disco
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Genre.JazzAndBlues">
+            <summary>
+            Jazz и Blues
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.LifeMain">
+            <summary>
+            Главное в жизни.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.FamilyAndChildren">
+            <summary>
+            Семья и дети
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.CareerAndMoney">
+            <summary>
+            Карьера и деньги
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.EntertainmentAndLeisure">
+            <summary>
+            Развлечения и отдых
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.ScienceAndResearch">
+            <summary>
+            Наука и исследования
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.ImprovingTheWorld">
+            <summary>
+            Совершенствование мира
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.PersonalDevelopment">
+            <summary>
+            Саморазвитие
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.BeautyAndArt">
+            <summary>
+            Красота и искусство
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.LifeMain.FameAndInfluence">
+            <summary>
+            Слава и влияние
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.PeopleMain">
+            <summary>
+            Главное в людях.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.IntellectAndCreativity">
+            <summary>
+            Ум и креативность
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.KindnessAndHonesty">
+            <summary>
+            Доброта и честность
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.HealthAndBeauty">
+            <summary>
+            Красота и здоровье
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.WealthAndPower">
+            <summary>
+            Власть и богатство
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.CourageAndPersistance">
+            <summary>
+            Смелость и упорство
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PeopleMain.HumorAndLoveForLife">
+            <summary>
+            Юмор и жизнелюбие
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.PoliticalView">
+            <summary>
+            Политические предпочтения.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Communist">
+            <summary>
+            Коммунистические
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Socialist">
+            <summary>
+            Социаличтические
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Moderate">
+            <summary>
+            Умеренные
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Liberal">
+            <summary>
+            Либеральные
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Conservative">
+            <summary>
+            Консервативные
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Monarchist">
+            <summary>
+            Монархические
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Ultraconservative">
+            <summary>
+            Ультраконсервативные
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Apathetic">
+            <summary>
+            Индифферентные
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.PoliticalView.Libertarian">
+            <summary>
+            Либертарианские
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.Relation">
+            <summary>
+            Семейное положение.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.NotSpecified">
+            <summary>
+            Не указано
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.Single">
+            <summary>
+            Не женат/не замужем
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.InARelationship">
+            <summary>
+            Есть друг/есть подруга
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.Engaged">
+            <summary>
+            Помолвлен/помолвлена
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.Married">
+            <summary>
+            Женат/замужем
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.ItsCompicated">
+            <summary>
+            Всё сложно
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.ActivelySearching">
+            <summary>
+            В активном поиске
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.InLove">
+            <summary>
+            Влюблён/влюблена
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Relation.InCivilUnion">
+            <summary>
+            В гражданском браке
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.SchoolType">
+            <summary>
+            Тип школы.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.School">
+            <summary>
+            Школа
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Gymnasium">
+            <summary>
+            Гимназия
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Lyceum">
+            <summary>
+            Лицей
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Boarding">
+            <summary>
+            Интернат
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Evening">
+            <summary>
+            Вечерняя
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Music">
+            <summary>
+            Музыкальная
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Sport">
+            <summary>
+            Спортивная
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Artistic">
+            <summary>
+            Художественная
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.College">
+            <summary>
+            Колледж
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.ProfessionalLyceum">
+            <summary>
+            Профессиональный лицей
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.TechnicalCollege">
+            <summary>
+            Техникум
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Vocational">
+            <summary>
+            ПТУ
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Specialized">
+            <summary>
+            Училище
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.SchoolType.Art">
+            <summary>
+            Школа искусств
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.Sex">
+            <summary>
+            Пол.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Sex.NotSpecified">
+            <summary>
+            Не указан
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Sex.Female">
+            <summary>
+            Женский
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.Sex.Male">
+            <summary>
+            Мужской
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Enums.View">
+            <summary>
+            Отношение к вредным привычкам.
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.View.VeryNegative">
+            <summary>
+            Резко негативное
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.View.Negaive">
+            <summary>
+            Негативное
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.View.Neutral">
+            <summary>
+            Компромиссное
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.View.Compromisable">
+            <summary>
+            Нейтральное
+            </summary>
+        </member>
+        <member name="F:VkLibrary.Enums.View.Positive">
+            <summary>
+            Положительное
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Exceptions.AuthorizationException">
+            <summary>
+            Исключение, возникающее при авторизации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.AuthorizationException.#ctor">
+            <summary>
+            Исключение, возникающее при авторизации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.AuthorizationException.#ctor(System.String)">
+            <summary>
+            Исключение, возникающее при авторизации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.AuthorizationException.#ctor(System.String,System.Exception)">
+            <summary>
+            Исключение, возникающее при авторизации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.AuthorizationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Исключение, возникающее при авторизации.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Exceptions.CaptchaException">
+            <summary>
+            Исключение, возникающее при появлении капчи.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.CaptchaException.#ctor">
+            <summary>
+            Исключение, возникающее при появлении капчи.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.CaptchaException.#ctor(System.String)">
+            <summary>
+            Исключение, возникающее при появлении капчи.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.CaptchaException.#ctor(System.String,System.Exception)">
+            <summary>
+            Исключение, возникающее при появлении капчи.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.CaptchaException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Исключение, возникающее при появлении капчи.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Exceptions.TwoFactorAuthException">
+            <summary>
+            Исключение, возникающее при двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.TwoFactorAuthException.#ctor">
+            <summary>
+            Исключение, возникающее при двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.TwoFactorAuthException.#ctor(System.String)">
+            <summary>
+            Исключение, возникающее при двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.TwoFactorAuthException.#ctor(System.String,System.Exception)">
+            <summary>
+            Исключение, возникающее при двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.TwoFactorAuthException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Исключение, возникающее при двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Exceptions.VkLibraryException">
+            <summary>
+            Общее исключение.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.VkLibraryException.#ctor">
+            <summary>
+            Общее исключение.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.VkLibraryException.#ctor(System.String)">
+            <summary>
+            Общее исключение.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.VkLibraryException.#ctor(System.String,System.Exception)">
+            <summary>
+            Общее исключение.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Exceptions.VkLibraryException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+            Общее исключение.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Album">
+            <summary>
+            Основная информация об альбоме - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Id">
+            <summary>
+            Идентификатор владельца.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Thumb">
+            <summary>
+            Обложка альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.OwnerId">
+            <summary>
+            Идентификатор владельца альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Title">
+            <summary>
+            Название альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Description">
+            <summary>
+            Описание альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Created">
+            <summary>
+            Дата создания альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Updated">
+            <summary>
+            Дата последнего обновления альбома.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Album.Size">
+            <summary>
+            Количество фотографий в альбоме.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Audio">
+            <summary>
+            Основная информация об аудиозаписи - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Id">
+            <summary>
+            Идентификатор аудиозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.OwnerId">
+            <summary>
+            Идентификатор владельца аудиозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Artist">
+            <summary>
+            Исполнитель.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Title">
+            <summary>
+            Название композиции.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Duration">
+            <summary>
+            Длительность аудиозапии в секундах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Url">
+            <summary>
+            Ссылка на mp3.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.LyricsId">
+            <summary>
+            Идентификатор текста аудиозаписи, если доступно.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.AlbumId">
+            <summary>
+            Идентификатор альбома, в котором находится аудиозапись, если присвоен.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Genre">
+            <summary>
+            Идентификатор жанра.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.Date">
+            <summary>
+            Дата добавления.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Audio.NoSearch">
+            <summary>
+            Включена ли опция «Не выводить при поиске».
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Career">
+            <summary>
+            Основная информация о карьере пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.GroupId">
+            <summary>
+            Идентификатор сообщества (если доступно, иначе company).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.Company">
+            <summary>
+            Название компании (если доступно, иначе group_id).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.CountryId">
+            <summary>
+             Идентификатор страны.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.CityId">
+            <summary>
+            Идентификатор города (если доступно, иначе city_name).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.CityName">
+            <summary>
+            Название города (если доступно, иначе city_id).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.From">
+            <summary>
+            Год начала работы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.Until">
+            <summary>
+            Год окончания работы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Career.Position">
+            <summary>
+            Должность.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.City">
+            <summary>
+            Основная информация о городе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.City.Id">
+            <summary>
+             Идентификатор города.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.City.Title">
+            <summary>
+            Название города.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Comments">
+            <summary>
+            Основная информация о комментариях.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Comments.Count">
+            <summary>
+            Количество комментариев к посту.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Comments.CanPost">
+            <summary>
+            Может ли текущий пользователь комментировать пост.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Comments.GroupsCanPost">
+            <summary>
+            Могут ли сообщества комментировать пост.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Connections">
+            <summary>
+            Основная информация об указанных в профиле сервисах пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Connections.Facebook">
+            <summary>
+            Никнейм пользователя в Facebook.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Connections.Skype">
+            <summary>
+            Никнейм пользователя в Skype.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Connections.FacebookName">
+            <summary>
+            Имя пользователя в Facebook.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Connections.Twitter">
+            <summary>
+            Никнейм пользователя в Twitter.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Connections.Instagram">
+            <summary>
+            Никнейм пользователя в Instagram.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Contact">
+            <summary>
+            Основная информация из блока контактов публичной страницы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contact.UserId">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contact.Position">
+            <summary>
+            Должность.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contact.Phone">
+            <summary>
+            Номер телефона.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contact.Email">
+            <summary>
+            Адрес e-mail.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Contacts">
+            <summary>
+            Информация о телефонных номерах пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contacts.MobilePhone">
+            <summary>
+            Мобильный телефон пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Contacts.HomePhone">
+            <summary>
+            Домашний телефон пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Coordinates">
+            <summary>
+            Координаты фотографии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Coordinates.X">
+            <summary>
+            Координата X левого верхнего угла в процентах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Coordinates.Y">
+            <summary>
+            Координата Y левого верхнего угла в процентах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Coordinates.X2">
+            <summary>
+            Координата X правого нижнего угла в процентах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Coordinates.Y2">
+            <summary>
+            Координата Y правого нижнего угла в процентах.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Counters">
+            <summary>
+            Количество различных объектов у пользователя. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Albums">
+            <summary>
+            Количество альбомов пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Videos">
+            <summary>
+            Количество видеозаписей пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.UserVideos">
+            <summary>
+            Количество видеозаписей с пользователем.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Notes">
+            <summary>
+            Количество заметок пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.MutualFriends">
+            <summary>
+            Количество общих друзей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.OnlineFriends">
+            <summary>
+            Количество друзей онлайн.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Audios">
+            <summary>
+            Количество аудиозаписей пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Photos">
+            <summary>
+            Количество фотографий пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Groups">
+            <summary>
+            Количество групп пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Followers">
+            <summary>
+            Количество подписчиков пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Subscriptions">
+            <summary>
+            Количество подписок пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Pages">
+            <summary>
+            Количество интересных страниц пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Counters.Gifts">
+            <summary>
+            Количество подарков пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Country">
+            <summary>
+            Основная информация о стране.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Country.Id">
+            <summary>
+             Идентификатор страны.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Country.Title">
+            <summary>
+            Название страны.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.CropPhoto">
+            <summary>
+            Основные данные о точках, по которым вырезаны профильная 
+            и миниатюрная фотографии пользователя, при наличии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.CropPhoto.Photo">
+            <summary>
+            Объект фотографии пользователя, из которой вырезается главное фото профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.CropPhoto.Crop">
+            <summary>
+            Вырезанная фотография пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.CropPhoto.Rect">
+            <summary>
+            Миниатюрная квадратная фотография, вырезанная из фотографии crop.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Document">
+            <summary>
+            Основная информация о документе - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Id">
+            <summary>
+            Идентификаор документа. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.OwnerId">
+            <summary>
+            Идентификатор владельца.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Title">
+            <summary>
+            Название документа.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Size">
+            <summary>
+            Размер документа в байтах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Ext">
+            <summary>
+            Расширение документа. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Url">
+            <summary>
+            Адрес документа, по которому его можно загрузить.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.Date">
+            <summary>
+            Дата добавления.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Document.DocType">
+            <summary>
+            Тип документа.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Education">
+            <summary>
+            Основная информация о высшем учебном заведении пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Education.University">
+            <summary>
+            Идентификатор ВУЗа, в котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Education.UniversityName">
+            <summary>
+            Название ВУЗа, в котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Education.Faculty">
+            <summary>
+            Идентификатор факультета, на котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Education.FacultyName">
+            <summary>
+            Название факультета, на котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Education.Graduation">
+            <summary>
+            Год окончания обучения.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Exports">
+            <summary>
+            Внешние сервисы, в которые настроен экспорт из ВК.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Exports.Twitter">
+            <summary>
+            Twitter
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Exports.Facebook">
+            <summary>
+            Facebook
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Exports.Livejournal">
+            <summary>
+            LiveJournal
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Exports.Instagram">
+            <summary>
+            Instagram
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Followers">
+            <summary>
+            Основная информация о подписчиках пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Followers.Count">
+            <summary>
+            Количество подписчиков пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Followers.FollowersList">
+            <summary>
+            Список подписчиков пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Friends">
+            <summary>
+            Основная информация о друзьях пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Friends.Count">
+            <summary>
+            Количество друзей пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Friends.FriendsList">
+            <summary>
+            Список друзей пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Group">
+            <summary>
+            Основная информация о сообществе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Id">
+            <summary>
+            Идентификатор сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Name">
+            <summary>
+            Название сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.ScreenName">
+            <summary>
+            Короткий адрес.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.IsClosed">
+            <summary>
+            Является ли сообщество закрытым.
+            Возможные значения:
+            0 - открытое, 1 - закрыторе, 2 - частное.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Type">
+            <summary>
+            Тип сообщества: group, page, event.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Contacts">
+            <summary>
+            Информация из блока контактов публичной страницы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Photo50">
+            <summary>
+            URL главной фотографии с размером 50x50px.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Photo100">
+            <summary>
+            URL главной фотографии с размером 100х100px.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Group.Photo200">
+            <summary>
+            URL главной фотографии в максимальном размере.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Groups">
+            <summary>
+            Основная информация о группах пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Groups.Count">
+            <summary>
+            Количество групп пользоватея.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Groups.GroupsList">
+            <summary>
+            Список групп пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.IAttachment">
+            <summary>
+            Медиавложения в записях на стене
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.IAttachment.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.LastSeen">
+            <summary>
+            Информация о времени последнего посещения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.LastSeen.Time">
+            <summary>
+            Время последнего посещения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.LastSeen.Platform">
+            <summary>
+            Тип платформы.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Likes">
+            <summary>
+            Основная информация о лайках к записи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Likes.Count">
+            <summary>
+            Количество лайков.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Likes.UserLikes">
+            <summary>
+            Наличие лайка от текущего пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Likes.CanLike">
+            <summary>
+            Может ли текущий пользователь лайкать пост.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Likes.CanPublish">
+            <summary>
+            Может ли текущий пользователь сделать репост.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Link">
+            <summary>
+            Основная информация о ссылках - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Url">
+            <summary>
+            URL ссылки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Title">
+            <summary>
+            Заголовок ссылки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Description">
+            <summary>
+            Описание ссылки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Caption">
+            <summary>
+            Подпись ссылки (если имеется).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Link.Photo">
+            <summary>
+            Изображение превью (если имеется).
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Military">
+            <summary>
+            Информация о военной службе пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Military.Unit">
+            <summary>
+            Номер части.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Military.UnitId">
+            <summary>
+            Идентификатор части в базе данных.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Military.CountryId">
+            <summary>
+            Идентификатор страны, в которой находится часть.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Military.From">
+            <summary>
+            Год начала службы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Military.Until">
+            <summary>
+            Год окончания службы.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Note">
+            <summary>
+            Основная информация о заметках - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Id">
+            <summary>
+            Идентификатор заметки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.OwnerId">
+            <summary>
+            Идентификатор владельца заметки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Title">
+            <summary>
+            Заголовок заметки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Text">
+            <summary>
+            Текст заметки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Date">
+            <summary>
+            Дата создания заметки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.Comments">
+            <summary>
+            Количество комментариев.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Note.ViewUrl">
+            <summary>
+            URL страницы для отображения заметки.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Occupation">
+            <summary>
+            Основная информация о текущем роде занятия пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Occupation.Type">
+            <summary>
+            Тип.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Occupation.Id">
+            <summary>
+            Идентификатор школы, вуза, сообщества компании (в которой пользователь работает).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Occupation.Name">
+            <summary>
+            Название школы, вуза или места работы.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Person">
+            <summary>
+            Основная информация о пользователе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FirstName">
+            <summary>
+            Имя пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.LastName">
+            <summary>
+            Фамилия пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.IsClosed">
+            <summary>
+            Скрыт ли профиль пользователя настройками приватности.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanAccessClosed">
+            <summary>
+            Может ли текущий пользователь видеть профиль. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Sex">
+            <summary>
+            Пол пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Nickname">
+            <summary>
+            Никнейм (отчество) пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Domain">
+            <summary>
+            Короткий адрес страницы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.ScreenName">
+            <summary>
+            Короткое имя страницы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Bdate">
+            <summary>
+            Дата рождения пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.City">
+            <summary>
+            Информация о городе, указанном на странице пользователя в разделе «Контакты». 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Country">
+            <summary>
+            Информация о стране, указанной на странице пользователя в разделе «Контакты». 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.PhotoId">
+            <summary>
+            Строковый идентификатор главной фотографии профиля пользователя в формате {user_id}_{photo_id}.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.HasPhoto">
+            <summary>
+            Установил ли пользователь фотографию для профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.HasMobile">
+            <summary>
+            Известен ли номер мобильного телефона пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.IsFriend">
+            <summary>
+            Является ли пользователь другом текущего пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Online">
+            <summary>
+            Информация о том, находится ли пользователь сейчас на сайте.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Facebook">
+            <summary>
+            Никнейм пользователя в Facebook.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.MobilePhone">
+            <summary>
+            Мобильный телефон пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.HomePhone">
+            <summary>
+            Домашний телефон пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Skype">
+            <summary>
+            Никнейм пользователя в Skype.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FacebookName">
+            <summary>
+            Имя пользователя в Facebook.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Twitter">
+            <summary>
+            Никнейм пользователя в Twitter.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Instagram">
+            <summary>
+            Никнейм пользователя в Instagram.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Site">
+            <summary>
+            Адрес сайта, указанный в профиле.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Status">
+            <summary>
+            Статус пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.LastSeen">
+            <summary>
+            Время последнего посещения. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CropPhoto">
+            <summary>
+            Данные о точках, по которым вырезаны профильная и
+            миниатюрная фотографии пользователя, при наличии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Verified">
+            <summary>
+            Верифицирована ли страница пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FollowersCount">
+            <summary>
+            Количество подписчиков пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.IsHiddenFromFeed">
+            <summary>
+            Скрыт ли пользователь из ленты новостей текущего пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Occupation">
+            <summary>
+            Информация о текущем роде занятия пользователя. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Career">
+            <summary>
+            Информация о карьере пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Military">
+            <summary>
+            Информация о военной службе пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.University">
+            <summary>
+            Идентификатор ВУЗа, в котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.UniversityName">
+            <summary>
+            Название ВУЗа, в котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Faculty">
+            <summary>
+            Идентификатор факультета, на котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FacultyName">
+            <summary>
+            Название факультета, на котором учится пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Graduation">
+            <summary>
+            Год окончания обучения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.HomeTown">
+            <summary>
+            Название родного города пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Personal">
+            <summary>
+            Информация о полях из раздела «Жизненная позиция».
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Interests">
+            <summary>
+            Содержимое поля «Интересы» из профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Music">
+            <summary>
+            Содержимое поля «Любимая музыка» из профиля пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Activities">
+            <summary>
+            Содержимое поля «Деятельность» из профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Movies">
+            <summary>
+            Содержимое поля «Любимые фильмы» из профиля пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Tv">
+            <summary>
+            Содержимое поля «Любимые телешоу» из профиля пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Books">
+            <summary>
+            Содержимое поля «Любимые книги» из профиля пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Games">
+            <summary>
+            Содержимое поля «Любимые игры» из профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Universities">
+            <summary>
+            Список ВУЗов, в которых учился пользователь. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Schools">
+            <summary>
+            Список школ, в которых учился пользователь. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.About">
+            <summary>
+            Содержимое поля «О себе» из профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Quotes">
+            <summary>
+            Содержимое поля «Любимые цитаты» из профиля.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Blacklisted">
+            <summary>
+            Находится ли текущий пользователь в черном списке у запрашиваемого пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.BlacklistedByMe">
+            <summary>
+            Находится ли запрашиваемый пользователь в черном списке у текущего пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanPost">
+            <summary>
+            Может ли оставлять записи на стене у пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanSeeAllPosts">
+            <summary>
+            Может ли текущий пользователь видеть чужие записи на стене.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanSeeAudio">
+            <summary>
+            Может ли текущий пользователь видеть аудиозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanSendFriendRequest">
+            <summary>
+            Будет ли отправлено уведомление пользователю о заявке в друзья.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CanWritePrivateMessage">
+            <summary>
+            Может ли текущий пользователь отправить личное сообщение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.CommonCount">
+            <summary>
+            Количество общих друзей с текущим пользователем.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Connections">
+            <summary>
+            Данные о подключенных сервисах пользователя, таких как: skype, facebook,
+            twitter, instagram.
+            </summary>
+            <remarks>
+            Есть, судя по всему, только в документации.
+            </remarks>        
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Contacts">
+            <summary>
+            Информация о телефонных номерах пользователя.
+            </summary>
+            <remarks>
+            Есть, судя по всему, только в документации.
+            </remarks>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Counters">
+            <summary>
+            Количество различных объектов у пользователя. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Education">
+            <summary>
+            Информация о высшем учебном заведении пользователя.
+            </summary>
+            <remarks>
+            Есть, судя по всему, только в документации.
+            </remarks>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Exports">
+            <summary>
+            Внешние сервисы, в которые настроен экспорт из ВК.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FriendStatus">
+            <summary>
+            Состояние дружбы с пользователями.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.IsFavorite">
+            <summary>
+            Находится ли пользователь в закладках у текущего
+            пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.FriendLists">
+            <summary>
+            Идентификаторы списков друзей, в которых состоит пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.MaidenName">
+            <summary>
+            Девичья фамилия пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Photo50">
+            <summary>
+            url квадратной фотографии пользователя, имеющей ширину 50 пикселей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Photo100">
+            <summary>
+            url квадратной фотографии пользователя, имеющей ширину 100 пикселей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Photo200Orig">
+            <summary>
+            url фотографии пользователя, имеющей ширину 200 пикселей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Photo200">
+            <summary>
+            url квадратной фотографии пользователя, имеющей ширину 200 пикселей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Photo400Orig">
+            <summary>
+            url фотографии пользователя, имеющей ширину 400 пикселей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.PhotoMax">
+            <summary>
+            url квадратной фотографии пользователя с максимальной шириной.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.PhotoMaxOrig">
+            <summary>
+            url фотографии пользователя максимального размера.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Relatives">
+            <summary>
+            Родственники пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Relation">
+            <summary>
+            Семейное положение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Timezone">
+            <summary>
+            Часовой пояс пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.Trending">
+            <summary>
+            Находится лм запрашиваемый пользователь в черном списке у текущего пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Person.WallComments">
+            <summary>
+            Доступно ли комментирование стены.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Personal">
+            <summary>
+            Основная информация о полях из раздела «Жизненная позиция».
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.Political">
+            <summary>
+            Политические предпочтения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.Languages">
+            <summary>
+            Языки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.Religion">
+            <summary>
+            Мировоззрение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.InspiredBy">
+            <summary>
+            Источники вдохновения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.PeopleMain">
+            <summary>
+            Главное в людях.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.LifeMain">
+            <summary>
+            Главное в жизни.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.Smoking">
+            <summary>
+            Отношение к курению.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Personal.Alcohol">
+            <summary>
+            Отношение к алкоголю.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Photo">
+            <summary>
+            Основная информация о фотографии - вложение
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.Id">
+            <summary>
+            Идентификатор фотографии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.AlbumId">
+            <summary>
+            Идентификатор альбома, в котором находится фотография.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.OwnerId">
+            <summary>
+            Идентификатор владельца фотографии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.UserId">
+            <summary>
+            Идентификатор пользователя, загрузившего фото (если фотография размещена в сообществе). 
+            Для фотографий, размещенных от имени сообщества, user_id = 100.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.Sizes">
+            <summary>
+            Массив с копиями изображения в разных размерах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.Title">
+            <summary>
+            Текст описания фотографии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Photo.Date">
+            <summary>
+            Дата добавления.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Poll">
+            <summary>
+            Основная информация о голосовании - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Id">
+            <summary>
+            Идентификатор опроса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.OwnerId">
+            <summary>
+            Идентификатор владельца опроса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.AuthorId">
+            <summary>
+            Идентификатор автора опроса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Photo">
+            <summary>
+            Фотография — фон сниппета опроса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Created">
+            <summary>
+            Дата создания.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Question">
+            <summary>
+            Текст вопроса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Friends">
+            <summary>
+            Идентификаторы друзей, которые проголосовали в опросе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Votes">
+            <summary>
+            Количество голосов.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Poll.Anonymous">
+            <summary>
+            Является ли опрос анонимным.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Post">
+            <summary>
+            Основная информация о посте со стены пользователя или сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Id">
+            <summary>
+            Идентификатор поста.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.FromId">
+            <summary>
+            Идентификатор автора поста.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.OwnerId">
+            <summary>
+            Идентификатор владельца стены, на которой размещена запись.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Date">
+            <summary>
+            Время публикации поста.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.FriendsOnly">
+            <summary>
+            Был ли пост создан с опцией «Только для друзей».
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.PostType">
+            <summary>
+            Тип записи.
+            Может принимать следующие значения: post, copy, reply, postpone, suggest.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Text">
+            <summary>
+            Текст записи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.CopyHistory">
+            <summary>
+            Список, содержащий историю репостов для записи. 
+            Возвращается только в том случае, если запись является репостом.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Comments">
+            <summary>
+            Информация о комментариях к посту.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Likes">
+            <summary>
+            Информация о лайках к посту.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Reposts">
+            <summary>
+            Информация о репостах к посту.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Views">
+            <summary>
+            Информация о просмотрах поста.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.ReplyOwnerId">
+            <summary>
+            Идентификатор владельца поста, в ответ на который был оставлен текущий.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.ReplyPostId">
+            <summary>
+            Идентификатор поста, в ответ на который был оставлен текущий.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.Attachments">
+            <summary>
+            Информация о вложениях записи (фотографии ссылки и т.п.).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.IsPinned">
+            <summary>
+            Закреплен ли пост.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Post.SignerId">
+            <summary>
+            Идентификатор автора, если пост был опубликован от имени сообщества и подписан пользователем.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Relative">
+            <summary>
+            Основная информация о родственнике пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Relative.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Relative.Type">
+            <summary>
+            Тип родственной связи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Relative.Name">
+            <summary>
+            Имя родственника.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Reposts">
+            <summary>
+            Основная информация о репостах записи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Reposts.Count">
+            <summary>
+            Количестов репостов.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Reposts.UserReposted">
+            <summary>
+            Наличие репоста от текущего пользователя.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.School">
+            <summary>
+            Основная информация о школе пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.Id">
+            <summary>
+            Идентификатор школы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.Country">
+            <summary>
+            Идентификатор страны, в которой расположена школа.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.City">
+            <summary>
+            Идентификатор города, в котором расположена школа.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.Name">
+            <summary>
+            Наименование школы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.YearFrom">
+            <summary>
+            Год начала обучения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.YearTo">
+            <summary>
+            Год окончания обучения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.Class">
+            <summary>
+            Буква класса.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.YearGraduated">
+            <summary>
+            Год выпуска.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.Type">
+            <summary>
+            Идентификатор типа.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.School.TypeStr">
+            <summary>
+            Название типа.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Size">
+            <summary>
+            Основная информация о размере изображения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Size.Type">
+            <summary>
+            Обозначение размера и пропорций копии.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Size.Url">
+            <summary>
+            url копии изображения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Size.Width">
+            <summary>
+            Ширина копии в пикселях.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Size.Height">
+            <summary>
+            Высота копии в пикселях.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.University">
+            <summary>
+            Основная информация об университете пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Id">
+            <summary>
+            Идентификатор университета.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Country">
+            <summary>
+            Идентификатор страны, в которой расположен университет.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.City">
+            <summary>
+            Идентификатор города, в котором расположен университет.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Name">
+            <summary>
+            Наименование университета.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Faculty">
+            <summary>
+            Идентификатор факультета.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.FacultyName">
+            <summary>
+            Наименование факультета.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Chair">
+            <summary>
+            Идентификатор кафедры.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.ChairName">
+            <summary>
+            Наименование кафедры.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.Graduation">
+            <summary>
+            Год окончания обучения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.EducationForm">
+            <summary>
+            Форма обучения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.University.EducationStatus">
+            <summary>
+            Статус обучения.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Video">
+            <summary>
+            Основная информация о видеозаписи - вложение.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Type">
+            <summary>
+            Тип вложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.AccessKey">
+            <summary>
+            Ключ доступа к объекту.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.CanAdd">
+            <summary>
+            Может ли пользователь добавить видеозапись к себе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Comments">
+            <summary>
+            Количество комментариев.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Date">
+            <summary>
+            Дата создания видеозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.AddingDate">
+            <summary>
+            Дата добавления видеозаписи пользователем или группой.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Description">
+            <summary>
+            Текст описания видеозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Duration">
+            <summary>
+            Длительность ролика в секундах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.CanEdit">
+            <summary>
+            Может ли пользователь редактировать видеозапись.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.IsPrivate">
+            <summary>
+            Приватная ли видеозапись.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Player">
+            <summary>
+            URL страницы с плеером, который можно использовать 
+            для воспроизведения ролика в браузере. 
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Platform">
+            <summary>
+            Название платформы (для видеозаписей, добавленных с внешних сайтов).
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Id">
+            <summary>
+            Идентификатор видеозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.OwnerId">
+            <summary>
+            Идентификатор владельца видеозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Title">
+            <summary>
+            Название видеозаписи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Video.Views">
+            <summary>
+            Количество просмотров видеозаписи.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Views">
+            <summary>
+            Основная информация о просмотрах.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Views.Count">
+            <summary>
+            Число просмотров записи.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.API.Wall">
+            <summary>
+            Основная информация о постах на стене.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Wall.Count">
+            <summary>
+            Число постов на стене.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Wall.Posts">
+            <summary>
+            Список постов на стене.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Wall.Profiles">
+            <summary>
+            Список пользователей.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.API.Wall.Groups">
+            <summary>
+            Список групп.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.Following">
+            <summary>
+            Информация о подписках.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Following.Id">
+            <summary>
+            Идентификатор сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Following.Name">
+            <summary>
+            Название сообщества.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.Person">
+            <summary>
+            Информация о пользователе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Person.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Person.PageName">
+            <summary>
+            Короткое имя страницы.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Person.Name">
+            <summary>
+            Имя пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.Person.ProfileUrl">
+            <summary>
+            Ссылка на фото профиля.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Models.User">
+            <summary>
+            Базовая информация о пользователе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.AvatarImg">
+            <summary>
+            url аватарки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Following">
+            <summary>
+            Количество подписок.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Name">
+            <summary>
+            Имя и фамилия пользователя, разделённые пробелом.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Status">
+            <summary>
+            Статус пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Birthday">
+            <summary>
+            День рождениия пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.AlbumsCount">
+            <summary>
+            Количество альбомов пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.CurrentCity">
+            <summary>
+            Город, в котором проживает пользователь в настоящее время.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Hometown">
+            <summary>
+            Родной город пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Universities">
+            <summary>
+            Университет пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.GiftsCount">
+            <summary>
+            Количество подарков.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.FollowingCount">
+            <summary>
+            Количество подписок.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Siblings">
+            <summary>
+            Братья и сестры.
+            Первый параметр - имя, второй - ссылка на страницу.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Schools">
+            <summary>
+            Школа пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Skype">
+            <summary>
+            Никнейм пользователя в Skype.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.SkypeUrl">
+            <summary>
+            Ссылка на Skype пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Facebook">
+            <summary>
+            Никнейм пользователя в Facebook.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.FacebookUrl">
+            <summary>
+            Ссылка на Facebook пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Instagram">
+            <summary>
+            Никнейм пользователя в Instagram.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.InstagramUrl">
+            <summary>
+            Ссылка на Instagram пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Twitter">
+            <summary>
+            Никнейм пользователя в Twitter.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.TwitterUrl">
+            <summary>
+            Ссылка на Twitter пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Station">
+            <summary>
+            Станция метро.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.District">
+            <summary>
+            Район, на котором проживает пользователь.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Companies">
+            <summary>
+            Места работы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Languages">
+            <summary>
+            Языки.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.Religion">
+            <summary>
+            Религия пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.PersonalPriority">
+            <summary>
+            Главное в жизни.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.ImportantInOthers">
+            <summary>
+            Главное в людях.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.ViewsOnSmoking">
+            <summary>
+            Отношение пользователя к курению.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.ViewsOnAlcohol">
+            <summary>
+            Отношение пользователя к алкоголю.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.PageName">
+            <summary>
+            Короткое имя страницы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Models.User.CommonFriendsCount">
+            <summary>
+            Количество общих друзей.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.Scraper">
+            <summary>
+            Class for scraping user's data without API.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Scraper.Confirmation">
+            <summary>
+            A method for two-factor auth.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Scraper.SolveCaptcha">
+            <summary>
+            A method for solving captcha.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.Scraper.IsAuthorized">
+            <summary>
+            If you can see profiles as an authorized user.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Scraper.#ctor">
+            <summary>
+            Creates an instance of a Scraper.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.Scraper.Authorize(System.String,System.String)">
+            <summary>
+            Authorizes a user without API.
+            </summary>
+            <param name="login">User's login</param>
+            <param name="password">User's password</param>
+        </member>
+        <member name="M:VkLibrary.Scraper.AuthorizeUsingApi(System.String,System.String)">
+            <summary>
+            Authorizes a user using API.
+            </summary>
+            <param name="login">User's login</param>
+            <param name="password">User's password</param>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetGeneralData(System.Int32)">
+            <summary>
+            Gets general user's data.
+            </summary>
+            <returns>An object with filled properties.</returns>
+            <param name="id">User id</param>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetGeneralData(System.String)">
+            <summary>
+            Gets general user's data.
+            </summary>
+            <returns>An object with filled properties.</returns>
+            <param name="pageName">Page name</param>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetSubscriptions(System.Int32)">
+            <summary>
+            Gets list of user's subscriptions.
+            </summary>
+            <param name="id">User id</param>
+            <returns>List of subscriptions.</returns>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetPhotos(System.Int32)">
+            <summary>
+            Gets user's photos.
+            </summary>
+            <remarks> 
+            To get all photos call the mothod until LoadMore is false.
+            </remarks>
+            <param name="id">User id</param>
+            <returns>
+            LoadMore - is there any photos to load, Urls - list of urls.
+            </returns>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetFriends(System.Int32)">
+            <summary>
+            Gets the list of user's friends.
+            </summary>
+            <param name="id">User id</param>
+            <returns>List of friends.</returns>
+            <remarks>Use only after authorization.</remarks>
+        </member>
+        <member name="M:VkLibrary.Scraper.GetSubscribers(System.Int32)">
+            <summary>
+            Gets list of subscribers.
+            To get all subscribers call the method until LoadMore is false.
+            </summary>
+            <param name="id">User id</param>
+            <returns>
+            LoadMore - is there any subscribers to load, Subscribers - list of subscribers.
+            </returns>
+            <remarks>
+            Use only after authorization.
+            </remarks>
+        </member>
+        <member name="T:VkLibrary.VkApiSettings">
+            <summary>
+            Настройки, которые необходимо установить перед созданием объекта.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.Language">
+            <summary>
+            Язык, по умолчанию - русский.
+            Возможные значения:
+            ru — русский,
+            uk — украинский,
+            be — белорусский,
+            en — английский,
+            es — испанский,
+            fi — финский,
+            de — немецкий,
+            it — итальянский.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.AccessToken">
+            <summary>
+            Ключ доступа пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.Login">
+            <summary>
+            Логин для авторизации.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.Password">
+            <summary>
+            Пароль для авторизации.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.ServiceToken">
+            <summary>
+            Сервисный ключ доступа.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.ApplicationId">
+            <summary>
+            Идентификатор приложения.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.Confirmation">
+            <summary>
+            Метод для двухфакторной аутентификации.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.SolveCaptcha">
+            <summary>
+            Метод для распознавания текста капчи.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkApiSettings.Version">
+            <summary>
+            Версия API.
+            </summary>
+        </member>
+        <member name="T:VkLibrary.VkFollowers">
+            <summary>
+            Информация о подписчиках пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFollowers.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFollowers.PageName">
+            <summary>
+            Короткое имя страницы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFollowers.Api">
+            <summary>
+            Информация о подписчиках пользователя, полученная с использованием API.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.VkFollowers.CreateAsync(System.Int32)">
+            <summary>
+            Создает объект VkFollowers
+            </summary>
+            <param name="id">идентификатор пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="M:VkLibrary.VkFollowers.CreateAsync(System.String)">
+            <summary>
+            Создает объект VkFriends
+            </summary>
+            <param name="pageName">короткое имя страницы пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="T:VkLibrary.VkFriends">
+            <summary>
+            Информация о друзьях пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFriends.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFriends.PageName">
+            <summary>
+            Короткое имя страницы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkFriends.Api">
+            <summary>
+            Информация о друзьх пользователя, полученная с использованием API.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.VkFriends.CreateAsync(System.Int32)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="id">идентификатор пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="M:VkLibrary.VkFriends.CreateAsync(System.String)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="pageName">короткое имя страницы пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="T:VkLibrary.VkGroups">
+            <summary>
+            Информация о группах пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkGroups.PageName">
+            <summary>
+            Короткий адрес страницы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkGroups.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkGroups.Api">
+            <summary>
+            Информация о сообществах пользователя.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.VkGroups.CreateAsync(System.Int32)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="id">идентификатор пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="M:VkLibrary.VkGroups.CreateAsync(System.String)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="pageName">короткое имя страницы пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="T:VkLibrary.VkPerson">
+            <summary>
+            Информация о пользователе.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkPerson.Id">
+            <summary>
+            Идентификатор пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkPerson.PageName">
+            <summary>
+            Имя страницы пользователя.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkPerson.Api">
+            <summary>
+            Информация о пользователе, полученная с использованием API.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.VkPerson.CreateAsync(System.Int32)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="id">идентификатор пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="M:VkLibrary.VkPerson.CreateAsync(System.String)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="pageName">короткое имя страницы пользователя</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="T:VkLibrary.VkWall">
+            <summary>
+            Информация о записях со стены пользователя или сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkWall.Id">
+            <summary>
+            Идентификатор пользователя или сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkWall.PageName">
+            <summary>
+            Короткий адрес пользователя или сообщества.
+            </summary>
+        </member>
+        <member name="P:VkLibrary.VkWall.Api">
+            <summary>
+            Информация о записях со стены пользователя или сообщества.
+            </summary>
+        </member>
+        <member name="M:VkLibrary.VkWall.CreateAsync(System.Int32)">
+            <summary>
+            Создает соответствующий объект 
+            </summary>
+            <param name="id">идентификатор пользователя или сообщества</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+        <member name="M:VkLibrary.VkWall.CreateAsync(System.String)">
+            <summary>
+            Создает соответствующий объект
+            </summary>
+            <param name="pageName">короткое имя страницы пользователя или сообщества</param>
+            <returns>объект с заполненными свойствами</returns>
+        </member>
+    </members>
+</doc>
